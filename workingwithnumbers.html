@@ -1,0 +1,54 @@
+
+<html>
+<head><title>Working with numbers</title></head>
+<style>
+body
+{
+background-color: pink;
+}
+</style>
+<body>
+
+<h1>Perimeter of a box</h1>
+
+<script type="text/javascript">
+
+	alert("I want add to add sizes of a box");
+	
+	//var len, wid;
+
+	var wid, totPer;
+	
+	var len = parseInt(prompt("Enter the length of the box","4"));
+	document.write("The length of the box is " + len);
+	
+	wid = parseFloat(prompt("Enter the width of the box","2.4"));
+	document.write("<br />The width of the box is " + wid);
+	
+	totPer = ((len*2)+ (wid*2));
+	
+	document.write("<p>The area of my box is  " + (wid+len) + "</p>");
+	//document.write("<p>The calc peri is " + totPer + " </p>");
+
+	alert("The perimeter of my box is " + totPer);
+	
+	var base = parseFloat(prompt("What is the base of the triangle","2.5")); 
+	var height = parseFloat(prompt("What is the height of the triangle?","5.36"));
+	
+	document.write("<p>The area of a triangle is " + (base*height/2) + "</p><hr />");
+	
+	document.write("<h2>Convert temp - F to C</h2>");
+	var far = parseFloat(prompt("What is the temp in F?","72"));
+	document.write("The temp in Celcius  " + ((far-32)*5/9));
+	
+	
+	
+	</script>
+	
+	
+
+
+	
+	
+</body>
+</html>
